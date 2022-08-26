@@ -21,7 +21,6 @@ public class Main {
     }
 
     public static void taskSelection() {
-        FourthTask fourthTask = new FourthTask();
         Scanner inputData = new Scanner(System.in);
         System.out.println("> Введите номер задания (1-4):");
         try {
@@ -33,7 +32,7 @@ public class Main {
             } else if (taskNum == 3) {
                 ThirdTask.main();
             } else if (taskNum == 4) {
-                fourthTask.main();
+                FourthTask.main();
             } else {
                 System.out.println("> Введен некорректный номер задания!");
             }

@@ -1,9 +1,7 @@
 package com.astondevs;
 
-import java.io.*;
-
 public class FourthTask {
-    public void main() {
+    public static void main() {
         System.out.println("Дана скобочная последовательность: [((())()(())]]\n" +
                 "Правильные скобочные последовательности определяются следующим образом:\n" +
                 "- если правильная скобочная последовательность, взятая в скобки одного типа;\n" +
